@@ -1,0 +1,282 @@
+/*
+    Author: Ajala AbdulSamii Olalekan
+    Email: kgasta@gmail.com
+    Github: github.com/jalasem
+    Note: I have written some custom css here to help you through your design
+*/
+
+nav>.container {
+	width: 95%;
+}
+
+nav a.brand-logo,
+nav ul li a {
+	color: red;
+}
+
+nav a.brand-logo {
+	padding-left: 1rem;
+}
+
+
+/*font size adjustments
+    in your html you can use them for icons and text
+    e.g <i class="icon ion-social-facebook x15"></i> to adjut the font-size of the icon to 1.5rem
+*/
+
+.x1 {
+	font-size: 1rem;
+}
+
+.x15 {
+	font-size: 1.5rem;
+}
+
+.x2 {
+	font-size: 2rem;
+}
+
+.x25 {
+	font-size: 2.5rem;
+}
+
+.x3 {
+	font-size: 3rem;
+}
+
+.x35 {
+	font-size: 3.5rem;
+}
+
+.x4 {
+	font-size: 4rem;
+}
+
+.x45 {
+	font-size: 4.5rem;
+}
+
+.x5 {
+	font-size: 5rem;
+}
+
+.x55 {
+	font-size: 5.5rem;
+}
+
+ul.social i.icon {
+	margin-right: 1rem;
+}
+
+nav a.brand-logo {
+	/*padding: 7px 0px;*/
+}
+
+.slider .indicators {
+	right: auto;
+	left: 1rem;
+	bottom: 3rem;
+}
+
+.slider .indicators .indicator-item {
+	height: 12px;
+	width: 12px;
+	border: 2px solid gold;
+	margin: 0 2px;
+	background-color: #F44336;
+	z-index: 100000;
+}
+
+
+/*nmb => no margin bottom*/
+
+.nmb {
+	margin-bottom: 0 !important;
+}
+
+#firstPanel .col,
+#featuredEvents .col {
+	padding: 0 !important;
+}
+
+#firstPanel .col .card,
+#featuredEvents .card {
+	margin: 0
+}
+
+#firstPanel>.col:last-child .card-image img {
+	height: 213.5px;
+}
+
+#firstPanel>.col .card-image span.card-title,
+#upcomingEvents .card-title {
+	width: 100%;
+	background: rgba(0, 0, 0, 0.37);
+	height: 100%;
+	padding: 25% 1rem;
+	text-align: center;
+	transition: all .3s ease-in-out;
+}
+
+#featuredEvents .col .card-title {
+	width: 100%;
+	background: rgba(0, 0, 0, 0.37);
+	height: 100%;
+	padding: 15% 1rem;
+	text-align: center;
+	transition: all .3s ease-in-out;
+}
+
+#firstPanel>.col .card-image span.card-title:hover,
+#upcomingEvents .card-title:hover,
+#featuredEvents .col .card-title:hover {
+	background: rgba(0, 0, 0, 0.55);
+}
+
+#upcomingEvents {
+	padding-top: 0;
+}
+
+#upcomingEvents .card-action {
+	padding: 10px 10px !important;
+}
+
+#upcomingEvents .card-action .btn {
+	padding: 0 1.5rem !important;
+}
+
+@media only screen and (min-width: 993px) {
+	.container {
+		width: 90%
+	}
+}
+
+
+/*calendar*/
+
+
+/*
+cr - calendar row, .wd - weekdays, ch - calendar header
+*/
+
+.calendar * {
+	font-family: 'Roboto';
+}
+
+.calendar {
+	margin-bottom: 4rem;
+}
+
+.calendar .ch {
+	padding: 0 2rem;
+}
+
+.calendar .ch p.flow-text {}
+
+.calendar-table {
+	margin-bottom: 4rem;
+	border: 1px solid rgba(128, 128, 128, 0.59);
+	margin-top: -1.5%;
+}
+
+.calendar-table tr.day-names {
+	background: #FF9800;
+	color: white;
+}
+
+.calendar-table .day-names td {
+	border-right: 1px solid rgba(128, 128, 128, 0.59);
+}
+
+.calendar-table .wd {
+	width: 14%;
+	height: 7rem;
+	border: 1px solid rgba(128, 128, 128, 0.59);
+	margin: 1px -1.5px;
+	padding: 0px 1rem;
+}
+
+.calendar-table .wd span.date {
+	display: inherit;
+	float: right;
+	margin-top: -1.5rem;
+	margin-right: 0.5rem;
+	font-size: 1.2rem;
+	color: grey;
+}
+
+.calendar-table .wd p:first-child {
+	line-height: 60%;
+}
+
+.calendar-table .wd .date.today {
+	color: white;
+	background: #FF5722;
+	padding: 0.4rem 0.6rem;
+	border-radius: 50%;
+	margin-top: -3rem;
+	margin-right: 0;
+}
+
+.calendar-table .wd .event {
+	font-size: 0.8rem;
+	padding: 0.2rem 0.5rem;
+	border-radius: 4px;
+}
+
+.calendar-table .wd p.flow-text {
+	line-height: 110%;
+	font-size: inherit;
+}
+
+
+/*calendar*/
+
+img.dummy {
+	background: grey !important;
+}
+
+[page="main"] .card .card-content {
+	padding: 1rem 10px 0.5rem;
+}
+
+[page="main"] #section1.row .col {
+	padding: 0 0.3rem;
+}
+
+[page="main"] .slider {
+	margin-top: 0.5rem;
+}
+
+[page="main"] #description {
+	padding: 2rem;
+}
+
+[page="main"] blockquote {
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+[page="main"] .partners {
+	padding:1rem 1rem
+}
+
+[page="main"] .partners img.dummy {
+	width:12rem;
+	height:10rem;
+	margin: 1rem 2rem;
+}
+
+[page="main"] #workPics>.container {
+	width: 95%;
+}
+
+[page="main"] #workPics img.dummy {
+	margin: 1rem 1rem;
+	width: 200px;
+	height: 180px;
+}
+
+.page-footer {
+	padding-top: 5px;
+}
